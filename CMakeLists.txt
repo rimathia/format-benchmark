@@ -194,6 +194,9 @@ target_link_libraries(locale-benchmark benchmark fmt)
 add_executable(parse-benchmark src/parse-benchmark.cc)
 target_link_libraries(parse-benchmark benchmark fmt)
 
+add_executable(twentystrings-benchmark src/twentystrings-benchmark.cc)
+target_link_libraries(twentystrings-benchmark benchmark fmt)
+
 add_executable(concat-benchmark src/concat-benchmark.cc)
 target_link_libraries(concat-benchmark benchmark fmt)
 
